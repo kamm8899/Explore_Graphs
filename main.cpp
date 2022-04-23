@@ -1,4 +1,5 @@
 #include "graph.h"
+#include <iostream>
 
 int main()
 {
@@ -26,3 +27,8 @@ int main()
 
     return 0;
 } 
+
+
+//what should this look like?
+//there is no second function in the pseudocode can we do this just with one function instead of two
+

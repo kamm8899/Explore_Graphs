@@ -1,8 +1,15 @@
 #ifndef _GRAPH_H_
 #define _GRAPH_H_
+//maps english word to a variable
+
+#define NO_EDGE 0
+#define EDGE_TREE 1
+#define EDGE_BACK 2
+#define EDGE_FORWARD 3
+#define EDGE_CROSS 4
 
 #include <set>
-
+#include <iostream>
 using namespace std;
 
 class Graph
